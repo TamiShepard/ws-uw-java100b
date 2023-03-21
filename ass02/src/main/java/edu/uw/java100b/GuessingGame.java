@@ -14,7 +14,7 @@ public class GuessingGame {
         int max = 100;
         System.out.println("Guess a number between " + min + " and " + max);
         Random r = new Random();
-        return r.ints(min, (max + 1)).findFirst().getAsInt();
+        return r.nextInt(101);
     }
 
     /**
