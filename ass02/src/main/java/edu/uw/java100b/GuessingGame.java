@@ -21,7 +21,7 @@ public class GuessingGame {
      * A guessing game where the user tries to guess a random number,
      * until they get the correct one. They will also be prompted after
      * a win if they would like to play again.
-     * @author thugf
+     * @author ShepardTM
      * @param args - none
      */
     public static void main(String[] args) {
