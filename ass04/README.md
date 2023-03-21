@@ -2,20 +2,20 @@
 
 For this assignment, you will create a basic library system. This system will be able manage library members and the books the library lends.
 
-### Assumptions.
+### Assumptions. ###
 There will be two items in the library system to begin with, books and library members. We will make two rules:
 - A user can only checkout one book at a time.  
 - A book cannot be checked out when it is already checked out.
 
-###Packages.
+### Packages. ###
 There will be two packages in this assignment
 - com.<firstinitialastname> ie com.cburke
   - The LibraryDriver class will exist in this package
 - com.<first_initial_lastname>.library
   - Book and Library Member classes will exist in this package
 
-### Classes:
-####Book:
+### Classes: ###
+#### Book: ####
 
 **data members:** title, author, published date, publishing company, checked out
 
@@ -24,7 +24,7 @@ There will be two packages in this assignment
 printStatus method will print to the console “Book is not checked out.” if the book is not checked out, otherwise the it will print “Book is checked out.”
 
 
-####LibraryMember:
+#### LibraryMember: ####
 
 **data members:** first name, last name, Book checked out
 
@@ -40,7 +40,7 @@ The “checkOutBook” method has the following requirements:
     - print “User failed to check out book” if the book check out failed.
 
 
-####LibraryDriver:
+#### LibraryDriver: ####
 
 **Methods:** main method
 
@@ -51,6 +51,6 @@ Inside main method:
 - Have a library member checkout two or more books
 
 
-####HINTS: All the data members of the Book object are of type String except for published date which is java.util.Date and checked out which is a boolean.
+#### HINTS: All the data members of the Book object are of type String except for published date which is java.util.Date and checked out which is a boolean. ####
 
-####BONUS 1: Add Logic to tell me why the checkout failed
+#### BONUS 1: Add Logic to tell me why the checkout failed ####
